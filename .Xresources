@@ -1,0 +1,79 @@
+! --- ~/.Xresources ------------------------------------------------------------
+! ------------------------------------------------------------------------------
+! --- generated with 4bit Terminal Color Scheme Designer -----------------------
+! ------------------------------------------------------------------------------
+! --- http://ciembor.github.com/4bit -------------------------------------------
+! ------------------------------------------------------------------------------
+
+! --- special colors ---
+
+*background: #252349
+*foreground: #fffcd2
+
+! --- standard colors ---
+
+! black
+*color0: #3c2e30
+
+! bright_black
+*color8: #948588
+
+! red
+*color1: #863960
+
+! bright_red
+*color9: #d69db9
+
+! green
+*color2: #608639
+
+! bright_green
+*color10: #b9d69d
+
+! yellow
+*color3: #866039
+
+! bright_yellow
+*color11: #d6b99d
+
+! blue
+*color4: #396086
+
+! bright_blue
+*color12: #9db9d6
+
+! magenta
+*color5: #603986
+
+! bright_magenta
+*color13: #b99dd6
+
+! cyan
+*color6: #398660
+
+! bright_cyan
+*color14: #9dd6b9
+
+! white
+*color7: #b2a4a6
+
+! bright_white
+*color15: #f0e1e4
+
+
+! ------------------------------------------------------------------------------
+! --- end of terminal colors section -------------------------------------------
+! ------------------------------------------------------------------------------
+
+! do not scroll with output
+URxvt*scrollTtyOutput: false
+
+! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
+URxvt*scrollWithBuffer: true
+
+! scroll back to the bottom on keypress
+URxvt*scrollTtyKeypress: true
+
+URxvt.scrollBar: false
+
+URxvt.font: xft:IBM Plex Mono Light:size=10
