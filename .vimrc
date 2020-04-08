@@ -2,10 +2,10 @@ set shell=/bin/bash
 set exrc
 set secure
 
-filetype plugin indent on
 set tabstop=4
 set shiftwidth=4
-set softtabstop=0 noexpandtab
+filetype plugin indent on
+set expandtab
 
 syntax on
 set number
