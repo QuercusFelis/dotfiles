@@ -106,9 +106,9 @@ bindsym $mod+a focus parent
 set $ws1 "1: browse"
 set $ws2 "2: ~>"
 set $ws3 "3: chat"
-set $ws4 "4: game"
-set $ws5 "5: program"
-set $ws6 "6: music"
+set $ws4 "4: work"
+set $ws5 "5: music"
+set $ws6 "6"
 set $ws7 "7"
 set $ws8 "8"
 set $ws9 "9"
@@ -187,9 +187,12 @@ exec_always /usr/bin/monitorSetup.sh
 exec --no-startup-id compton
 
 # Window assignment
-assign [class="^URxvt$"] $ws2
 assign [class="firefox"] $ws1
+assign [class="^URxvt$"] $ws2
 assign [class="discord"] $ws3
+assign [class="mumble"] $ws3
+assign [class="spotify"] $ws5
+assign [class="steam"] $ws6
 
 # i3 gaps
 for_window [class=".*"] border pixel 0
